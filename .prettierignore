@@ -1,0 +1,5 @@
+*.md
+*.mdx
+# Ignore artifacts:
+build
+coverage
