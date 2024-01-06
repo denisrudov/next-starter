@@ -1,11 +1,10 @@
 import '@testing-library/jest-dom'
 import { render } from '@testing-library/react'
-
-const TestComponent = () => <div>Test Component</div>
+import HelloWorld from 'components/HelloWorld'
 
 describe('Demo Test Should Run', () => {
   it('should test ', () => {
-    const { queryByText } = render(<TestComponent />)
-    expect(queryByText('Test Component')).toBeInTheDocument()
+    const { queryByText } = render(<HelloWorld />)
+    expect(queryByText('Hello World Next.js Starter Kit')).toBeInTheDocument()
   })
 })

@@ -1,6 +1,12 @@
 {
   "name": "nextstarter",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "description": "Next.js extended Starter Kit (Typescript)",
+  "author": {
+    "email": "denis.rudov@gmail.com",
+    "name": "Denis Rudov",
+    "url": "https://rudov.com"
+  },
   "private": true,
   "scripts": {
     "dev": "next dev",

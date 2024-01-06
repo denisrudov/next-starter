@@ -1,4 +1,16 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) Starter Kit (TypeScript) bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Which is also including:
+- React Testing Library
+- Basic Github action on pull requests
+- Dependabot for updating packages with Basic configuration
+- Prettier basic configuration with pre-commit hook and installation
+- Husky hooks handler
+- Tailwind CSS
+- Absolute Imports (configured in tsconfig)
+
+All the other options are kept originally coming from the official Next.js package
+
+Enjoy and feel free to contribute! :) 
 
 ## Getting Started
 
